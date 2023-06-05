@@ -18,6 +18,7 @@ Use len() to find the total words.
 ### Step 6: 
 Run the program to determine the number of words in the file created.
 ## PROGRAM:
+```
 Developed by:JEEVITHA S
 RegisterNumber: 212222100016
 import sys
@@ -31,6 +32,7 @@ with open(sys.argv[1], 'r') as f:
                 count[word] += 1
 print(count)
 f.close()
+```
 ### OUTPUT:
 
 ![image](https://github.com/Jeevithha/command-line-arguments-to-count-word/assets/123623197/fc9aa308-41af-4b8b-98a7-e954bff4f5cd)
